@@ -1,0 +1,11 @@
+# CVAE 默认参数，仅作记录；实际脚本使用命令行参数。
+data_dir: datasets/my_images
+out_dir: outputs/vae/default_run
+image_size: 64
+latent_dim: 128
+text_dim: 128
+batch_size: 32
+epochs: 50
+learning_rate: 0.001
+beta: 0.001
+max_text_len: 32
